@@ -1,0 +1,66 @@
+{
+  "type": "mcq",
+  "inputLabel": "Identify the Error Type",
+  "questions": [
+    {
+      "html": "<span class=\"code-func\" style=\"color:#d16969\">Print</span><span class=\"code-string\">(\"Hello\")</span>",
+      "correctCode": "Syntax Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span>(<span class=\"code-string\">\"Helo\"</span>)",
+      "correctCode": "Logic Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span><span class=\"code-string\">(\"World\"</span>",
+      "correctCode": "Syntax Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span>(<span class=\"code-string\">\"Pyton\"</span>)",
+      "correctCode": "Logic Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span> <span class=\"code-string\">\"Score\")</span>",
+      "correctCode": "Syntax Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span>(<span class=\"code-string\">\"Socre\"</span>)",
+      "correctCode": "Logic Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span><span class=\"code-string\">(\"Game)</span>",
+      "correctCode": "Syntax Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span>(<span class=\"code-string\">\"Gmae\"</span>)",
+      "correctCode": "Logic Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span><span class=\"code-string\">(\"\"Value\")</span>",
+      "correctCode": "Syntax Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span>(<span class=\"code-string\">\"Vlaue\"</span>)",
+      "correctCode": "Logic Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span><span class=\"code-string\">(${word}\")</span>",
+      "correctCode": "Syntax Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    },
+    {
+      "html": "<span class=\"code-func\">print</span>(<span class=\"code-string\">\"Lsit\"</span>)",
+      "correctCode": "Logic Error",
+      "optionsRaw": ["Syntax Error", "Logic Error", "Runtime Error", "No Error"]
+    }
+  ]
+}
