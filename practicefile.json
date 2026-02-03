@@ -1,5 +1,5 @@
 {
-  "type": "text",
+  "type": "multistep",
   "inputLabel": "Read the comment and type the correct Python for loop:",
   "questions": [
     {
