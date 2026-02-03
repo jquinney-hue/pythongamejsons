@@ -1,0 +1,46 @@
+{
+  "type": "text",
+  "inputLabel": "Read the comment and type the correct Python code:",
+  "questions": [
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called name</span>",
+      "correctCode": "name\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*name[^\"']*[\"']\\s*\\)",
+      "useRegex": true
+    },
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called city</span>",
+      "correctCode": "city\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*city[^\"']*[\"']\\s*\\)",
+      "useRegex": true
+    },
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called superpower</span>",
+      "correctCode": "superpower\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*superpower[^\"']*[\"']\\s*\\)",
+      "useRegex": true
+    },
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called age</span>",
+      "correctCode": "age\\s*=\\s*int\\s*\\(\\s*input\\s*\\(\\s*[\"'][^\"']*age[^\"']*[\"']\\s*\\)\\s*\\)",
+      "useRegex": true
+    },
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called name</span>",
+      "correctCode": "name\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*name[^\"']*[\"']\\s*\\)",
+      "useRegex": true
+    },
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called city</span>",
+      "correctCode": "city\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*city[^\"']*[\"']\\s*\\)",
+      "useRegex": true
+    },
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called age</span>",
+      "correctCode": "age\\s*=\\s*int\\s*\\(\\s*input\\s*\\(\\s*[\"'][^\"']*age[^\"']*[\"']\\s*\\)\\s*\\)",
+      "useRegex": true
+    },
+    {
+      "html": "<span class=\"code-comment\"># Create a variable called superpower</span>",
+      "correctCode": "superpower\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*superpower[^\"']*[\"']\\s*\\)",
+      "useRegex": true
+    }
+  ]
+}
