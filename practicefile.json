@@ -1,45 +1,45 @@
 {
   "type": "text",
-  "inputLabel": "Read the comment and type the correct Python code:",
+  "inputLabel": "Read the comment and type the correct Python for loop:",
   "questions": [
     {
-      "html": "<span class=\"code-comment\"># Create a variable called name</span>",
-      "correctCode": "name\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*name[^\"']*[\"']\\s*\\)",
+      "html": "<span class=\"code-comment\"># Print numbers from 1 to 5 using a for loop</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s+range\\s*\\(\\s*1\\s*,\\s*6\\s*\\)\\s*:\\s*print\\s*\\(\\s*\\w+\\s*\\)",
       "useRegex": true
     },
     {
-      "html": "<span class=\"code-comment\"># Create a variable called city</span>",
-      "correctCode": "city\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*city[^\"']*[\"']\\s*\\)",
+      "html": "<span class=\"code-comment\"># Print numbers from 0 to 4 using a for loop</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s+range\\s*\\(\\s*5\\s*\\)\\s*:\\s*print\\s*\\(\\s*\\w+\\s*\\)",
       "useRegex": true
     },
     {
-      "html": "<span class=\"code-comment\"># Create a variable called superpower</span>",
-      "correctCode": "superpower\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*superpower[^\"']*[\"']\\s*\\)",
+      "html": "<span class=\"code-comment\"># Print \"Hello\" 3 times using a for loop</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s+range\\s*\\(\\s*3\\s*\\)\\s*:\\s*print\\s*\\(\\s*[\"']Hello[\"']\\s*\\)",
       "useRegex": true
     },
     {
-      "html": "<span class=\"code-comment\"># Create a variable called age</span>",
-      "correctCode": "age\\s*=\\s*int\\s*\\(\\s*input\\s*\\(\\s*[\"'][^\"']*age[^\"']*[\"']\\s*\\)\\s*\\)",
+      "html": "<span class=\"code-comment\"># Print numbers from 2 to 10 stepping by 2</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s+range\\s*\\(\\s*2\\s*,\\s*11\\s*,\\s*2\\s*\\)\\s*:\\s*print\\s*\\(\\s*\\w+\\s*\\)",
       "useRegex": true
     },
     {
-      "html": "<span class=\"code-comment\"># Create a variable called name</span>",
-      "correctCode": "name\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*name[^\"']*[\"']\\s*\\)",
+      "html": "<span class=\"code-comment\"># Loop through the word \"Python\" and print each letter</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s*[\"']Python[\"']\\s*:\\s*print\\s*\\(\\s*\\w+\\s*\\)",
       "useRegex": true
     },
     {
-      "html": "<span class=\"code-comment\"># Create a variable called city</span>",
-      "correctCode": "city\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*city[^\"']*[\"']\\s*\\)",
+      "html": "<span class=\"code-comment\"># Print numbers from 5 down to 1 using a for loop</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s+range\\s*\\(\\s*5\\s*,\\s*0\\s*,\\s*-1\\s*\\)\\s*:\\s*print\\s*\\(\\s*\\w+\\s*\\)",
       "useRegex": true
     },
     {
-      "html": "<span class=\"code-comment\"># Create a variable called age</span>",
-      "correctCode": "age\\s*=\\s*int\\s*\\(\\s*input\\s*\\(\\s*[\"'][^\"']*age[^\"']*[\"']\\s*\\)\\s*\\)",
+      "html": "<span class=\"code-comment\"># Print \"Game\" 4 times using a for loop</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s+range\\s*\\(\\s*4\\s*\\)\\s*:\\s*print\\s*\\(\\s*[\"']Game[\"']\\s*\\)",
       "useRegex": true
     },
     {
-      "html": "<span class=\"code-comment\"># Create a variable called superpower</span>",
-      "correctCode": "superpower\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']*superpower[^\"']*[\"']\\s*\\)",
+      "html": "<span class=\"code-comment\"># Print numbers from 1 to 3 using a for loop</span>",
+      "correctCode": "for\\s+\\w+\\s+in\\s+range\\s*\\(\\s*1\\s*,\\s*4\\s*\\)\\s*:\\s*print\\s*\\(\\s*\\w+\\s*\\)",
       "useRegex": true
     }
   ]
