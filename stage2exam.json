@@ -1,5 +1,5 @@
 {
-  "title": "Exam 2 Replica",
+  "title": "Exam 2: Variables & Output",
   "questions": [
     {
       "type": "mcq",
@@ -85,8 +85,8 @@
     },
     {
       "type": "extended_var",
-      "prompt": "Write a script to store your <b>Name</b>, <b>Age</b>, and <b>Hobby</b> in 3 variables.\nThen print each one using a print statement.",
-      "explanation": "You need to assign 'name', 'age', and 'hobby', and use print() for each one."
+      "prompt": "Write a script to store your <b>Name</b>, <b>Age</b>, and <b>Hobby</b> in 3 variables.\nThen print each one alongside an appropriate message (e.g. print(\"Name:\", name)).",
+      "explanation": "You need to assign 'name', 'age', and 'hobby', and use print(\"Message\", var) for each one."
     }
   ]
 }
