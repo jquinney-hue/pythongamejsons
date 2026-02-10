@@ -12,7 +12,7 @@
     },
     {
       "html": "<span style=\"font-size:0.9rem\">Ask the user to <span class=\"green-keyword\">enter</span> their <span class=\"green-keyword\">city</span>.</span>",
-      "keywords": ["enter", "city"],
+      "keywords": ["city"],
       "correctCode": "city\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true
@@ -34,7 +34,7 @@
     },
     {
       "html": "<span style=\"font-size:0.9rem\">Ask the user to <span class=\"green-keyword\">input</span> their <span class=\"green-keyword\">school</span>.</span>",
-      "keywords": ["input", "school"],
+      "keywords": ["school"],
       "correctCode": "school\\s*=\\s*input\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true
