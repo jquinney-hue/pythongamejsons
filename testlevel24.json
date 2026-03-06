@@ -1,0 +1,42 @@
+{
+  "type": "text",
+  "inputLabel": "Type the correct Python logical operator:",
+  "questions": [
+    {
+      "html": "<span style=\"font-size:0.9rem\">Type the operator that: <span class=\"green-keyword\">Returns True if BOTH sides are True</span></span>",
+      "correctCode": "^\\s*and\\s*$",
+      "useRegex": true,
+      "triggerConsole": false
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Type the operator that: <span class=\"green-keyword\">Returns True if AT LEAST ONE side is True</span></span>",
+      "correctCode": "^\\s*or\\s*$",
+      "useRegex": true,
+      "triggerConsole": false
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Type the operator that: <span class=\"green-keyword\">Reverses the result (True becomes False)</span></span>",
+      "correctCode": "^\\s*not\\s*$",
+      "useRegex": true,
+      "triggerConsole": false
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Type the operator that: <span class=\"green-keyword\">Returns False if ANY side is False</span></span>",
+      "correctCode": "^\\s*and\\s*$",
+      "useRegex": true,
+      "triggerConsole": false
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Type the operator that: <span class=\"green-keyword\">Returns False ONLY when both sides are False</span></span>",
+      "correctCode": "^\\s*or\\s*$",
+      "useRegex": true,
+      "triggerConsole": false
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Type the operator that: <span class=\"green-keyword\">Returns True if the value is False</span></span>",
+      "correctCode": "^\\s*not\\s*$",
+      "useRegex": true,
+      "triggerConsole": false
+    }
+  ]
+}
