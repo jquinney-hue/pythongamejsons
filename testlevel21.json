@@ -69,14 +69,14 @@
       ]
     },
     {
-      "html": "<span style=\"font-size:0.9rem\">Checks if <span class=\"green-keyword\">ammo is less than or equal to 5</span></span>",
-      "correctCode": "if ammo <= 5:",
+      "html": "<span style=\"font-size:0.9rem\">Checks if <span class=\"green-keyword\">health is less than or equal to 5</span></span>",
+      "correctCode": "if health <= 5:",
       "triggerConsole": false,
       "optionsRaw": [
-        "if ammo <= 5:",
-        "if ammo < 5:",
-        "if ammo =< 5:",
-        "if ammo >= 5:"
+        "if health <= 5:",
+        "if health < 5:",
+        "if health =< 5:",
+        "if health >= 5:"
       ]
     },
     {
