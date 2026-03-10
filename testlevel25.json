@@ -1,45 +1,81 @@
 {
-  "type": "multiline",
-  "inputLabel": "Write the if statement and the print line below it:",
+  "type": "mcq",
+  "inputLabel": "Choose the correct else statement:",
   "questions": [
     {
-      "html": "<span style=\"font-size:0.9rem\">Print 'You have enough!' if <span class=\"green-keyword\">coins</span> is greater than or equal to <span class=\"green-keyword\">5</span>.</span>",
-      "correctCode": "if\\s+coins\\s*>=\\s*5\\s*:\\n\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
-      "useRegex": true,
-      "triggerConsole": true,
-      "notice": "Don't forget the colon (:) at the end of the if line, and remember to indent the print statement on the next line!"
+      "html": "<span style=\"font-size:0.9rem\">You have written <span class=\"green-keyword\">if coins >= 5:</span> — which else line is correct?</span>",
+      "correctCode": "else:",
+      "optionsRaw": ["else:", "else :", "else if:", "elif:"]
     },
     {
-      "html": "<span style=\"font-size:0.9rem\">If <span class=\"green-keyword\">health</span> is strictly less than <span class=\"green-keyword\">10</span>, print 'Warning: Low health!'.</span>",
-      "correctCode": "if\\s+health\\s*<\\s*10\\s*:\\n\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
-      "useRegex": true,
-      "triggerConsole": true
+      "html": "<span style=\"font-size:0.9rem\">After an if block, which keyword starts the alternative branch?</span>",
+      "correctCode": "else:",
+      "optionsRaw": ["else:", "otherwise:", "default:", "or:"]
     },
     {
-      "html": "<span style=\"font-size:0.9rem\">Check if the <span class=\"green-keyword\">score</span> is exactly equal to <span class=\"green-keyword\">100</span>, and print 'Perfect!'.</span>",
-      "correctCode": "if\\s+score\\s*==\\s*100\\s*:\\n\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
-      "useRegex": true,
-      "triggerConsole": true,
-      "notice": "Remember to use == (double equals) for checking equality!"
+      "html": "<span style=\"font-size:0.9rem\">Which is the correct structure for an if/else block?</span>",
+      "correctCode": "if x > 0:\n    print('yes')\nelse:\n    print('no')",
+      "optionsRaw": ["if x > 0:\n    print('yes')\nelse:\n    print('no')", "if x > 0:\n    print('yes')\nelse\n    print('no')", "if x > 0:\n    print('yes')\nElse:\n    print('no')", "if x > 0:\nprint('yes')\nelse:\nprint('no')"]
     },
     {
-      "html": "<span style=\"font-size:0.9rem\">When <span class=\"green-keyword\">level</span> is greater than <span class=\"green-keyword\">3</span>, print out 'Advanced player'.</span>",
-      "correctCode": "if\\s+level\\s*>\\s*3\\s*:\\n\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
-      "useRegex": true,
-      "triggerConsole": true
+      "html": "<span style=\"font-size:0.9rem\">Which correctly checks if <span class=\"green-keyword\">health</span> is less than <span class=\"green-keyword\">10</span>, otherwise prints a message?</span>",
+      "correctCode": "if health < 10:",
+      "optionsRaw": ["if health < 10:", "if health <= 10:", "if health > 10:", "if health != 10:"]
     },
     {
-      "html": "<span style=\"font-size:0.9rem\">If <span class=\"green-keyword\">lives</span> is not equal to <span class=\"green-keyword\">0</span>, print 'Still alive!'.</span>",
-      "correctCode": "if\\s+lives\\s*!=\\s*0\\s*:\\n\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
-      "useRegex": true,
-      "triggerConsole": true,
-      "notice": "Use != to check if something is NOT equal."
+      "html": "<span style=\"font-size:0.9rem\">In an if/else block, how many times does <span class=\"green-keyword\">else</span> appear?</span>",
+      "correctCode": "Once",
+      "optionsRaw": ["Once", "Twice", "Every time", "Never"]
     },
     {
-      "html": "<span style=\"font-size:0.9rem\">Check if <span class=\"green-keyword\">age</span> is less than or equal to <span class=\"green-keyword\">12</span>, and print 'Child ticket'.</span>",
-      "correctCode": "if\\s+age\\s*<=\\s*12\\s*:\\n\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
-      "useRegex": true,
-      "triggerConsole": true
+      "html": "<span style=\"font-size:0.9rem\">Which branch runs when the if condition is <span class=\"green-keyword\">False</span>?</span>",
+      "correctCode": "else",
+      "optionsRaw": ["else", "if", "both", "neither"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Which correctly checks if <span class=\"green-keyword\">grade</span> is greater than or equal to <span class=\"green-keyword\">50</span>, otherwise prints 'Failed'?</span>",
+      "correctCode": "if grade >= 50:",
+      "optionsRaw": ["if grade >= 50:", "if grade > 50:", "if grade <= 50:", "if grade == 50:"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Does the <span class=\"green-keyword\">else</span> block need a condition?</span>",
+      "correctCode": "No",
+      "optionsRaw": ["No", "Yes", "Sometimes", "Only with numbers"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Which correctly checks if <span class=\"green-keyword\">lives</span> is not equal to <span class=\"green-keyword\">0</span>, otherwise ends the game?</span>",
+      "correctCode": "if lives != 0:",
+      "optionsRaw": ["if lives != 0:", "if lives == 0:", "if lives > 0:", "if lives < 0:"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What must follow the <span class=\"green-keyword\">else</span> keyword?</span>",
+      "correctCode": "A colon (:)",
+      "optionsRaw": ["A colon (:)", "A condition", "Brackets ()", "A variable"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Which correctly checks if <span class=\"green-keyword\">age</span> is less than or equal to <span class=\"green-keyword\">12</span>, otherwise prints 'Adult'?</span>",
+      "correctCode": "if age <= 12:",
+      "optionsRaw": ["if age <= 12:", "if age < 12:", "if age >= 12:", "if age == 12:"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Does the code inside <span class=\"green-keyword\">else</span> need to be indented?</span>",
+      "correctCode": "Yes",
+      "optionsRaw": ["Yes", "No", "Only sometimes", "Only for print"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Which correctly checks if <span class=\"green-keyword\">score</span> equals <span class=\"green-keyword\">100</span>, otherwise prints 'Not perfect'?</span>",
+      "correctCode": "if score == 100:",
+      "optionsRaw": ["if score == 100:", "if score = 100:", "if score != 100:", "if score >= 100:"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Which correctly checks if <span class=\"green-keyword\">temperature</span> is greater than <span class=\"green-keyword\">30</span>, otherwise prints 'Nice weather'?</span>",
+      "correctCode": "if temperature > 30:",
+      "optionsRaw": ["if temperature > 30:", "if temperature >= 30:", "if temperature < 30:", "if temperature == 30:"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Which correctly checks if <span class=\"green-keyword\">stock</span> is less than or equal to <span class=\"green-keyword\">0</span>, otherwise prints 'In stock'?</span>",
+      "correctCode": "if stock <= 0:",
+      "optionsRaw": ["if stock <= 0:", "if stock < 0:", "if stock >= 0:", "if stock != 0:"]
     }
   ]
 }
