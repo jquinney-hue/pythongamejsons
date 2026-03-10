@@ -1,0 +1,56 @@
+{
+  "type": "mcq",
+  "inputLabel": "Select the correct output for the code shown below.",
+  "questions": [
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">1</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "0",
+      "optionsRaw": ["0", "1", "0, 1", "Nothing is printed"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">3</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "0, 1, 2",
+      "optionsRaw": ["0, 1, 2", "1, 2, 3", "0, 1, 2, 3", "1, 2"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">4</span>, <span class=\"green-keyword\">5</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "4",
+      "optionsRaw": ["4", "4, 5", "3, 4", "5"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">1</span>, <span class=\"green-keyword\">4</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "1, 2, 3",
+      "optionsRaw": ["1, 2, 3", "1, 2, 3, 4", "0, 1, 2, 3", "2, 3, 4"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">5</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "0, 1, 2, 3, 4",
+      "optionsRaw": ["0, 1, 2, 3, 4", "1, 2, 3, 4, 5", "0, 1, 2, 3, 4, 5", "0, 1, 2, 3"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">2</span>, <span class=\"green-keyword\">3</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "2",
+      "optionsRaw": ["2", "2, 3", "1, 2, 3", "3"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">4</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "0, 1, 2, 3",
+      "optionsRaw": ["0, 1, 2, 3", "1, 2, 3, 4", "0, 1, 2, 3, 4", "0, 1, 2"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">3</span>, <span class=\"green-keyword\">8</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "3, 4, 5, 6, 7",
+      "optionsRaw": ["3, 4, 5, 6, 7", "3, 4, 5, 6, 7, 8", "2, 3, 4, 5, 6, 7", "4, 5, 6, 7, 8"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">0</span>, <span class=\"green-keyword\">5</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "0, 1, 2, 3, 4",
+      "optionsRaw": ["0, 1, 2, 3, 4", "0, 1, 2, 3, 4, 5", "1, 2, 3, 4, 5", "0, 1, 2, 3"]
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">What will this code print on screen?</span><br><br><span style=\"font-family:monospace; font-size:0.9rem\">for i in <span class=\"code-func\">range</span>(<span class=\"green-keyword\">5</span>, <span class=\"green-keyword\">10</span>):<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"code-func\">print</span>(i)</span>",
+      "correctCode": "5, 6, 7, 8, 9",
+      "optionsRaw": ["5, 6, 7, 8, 9", "5, 6, 7, 8, 9, 10", "4, 5, 6, 7, 8, 9", "6, 7, 8, 9, 10"]
+    }
+  ]
+}
