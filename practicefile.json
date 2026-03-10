@@ -4,7 +4,6 @@
   "questions": [
     {
       "html": "<span style=\"font-size:0.9rem\">Print 'You have enough!' if <span class=\"green-keyword\">coins</span> is greater than or equal to <span class=\"green-keyword\">5</span>.</span>",
-      "keywords": ["if", "coins", ">="],
       "correctCode": "if\\s+coins\\s*>=\\s*5\\s*:\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true,
@@ -12,14 +11,12 @@
     },
     {
       "html": "<span style=\"font-size:0.9rem\">If <span class=\"green-keyword\">health</span> is strictly less than <span class=\"green-keyword\">10</span>, print 'Warning: Low health!'.</span>",
-      "keywords": ["if", "health", "<"],
       "correctCode": "if\\s+health\\s*<\\s*10\\s*:\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true
     },
     {
       "html": "<span style=\"font-size:0.9rem\">Check if the <span class=\"green-keyword\">score</span> is exactly equal to <span class=\"green-keyword\">100</span>, and print 'Perfect!'.</span>",
-      "keywords": ["if", "score", "=="],
       "correctCode": "if\\s+score\\s*==\\s*100\\s*:\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true,
@@ -27,14 +24,12 @@
     },
     {
       "html": "<span style=\"font-size:0.9rem\">When <span class=\"green-keyword\">level</span> is greater than <span class=\"green-keyword\">3</span>, print out 'Advanced player'.</span>",
-      "keywords": ["if", "level", ">"],
       "correctCode": "if\\s+level\\s*>\\s*3\\s*:\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true
     },
     {
       "html": "<span style=\"font-size:0.9rem\">If <span class=\"green-keyword\">lives</span> is not equal to <span class=\"green-keyword\">0</span>, print 'Still alive!'.</span>",
-      "keywords": ["if", "lives", "!="],
       "correctCode": "if\\s+lives\\s*!=\\s*0\\s*:\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true,
@@ -42,7 +37,6 @@
     },
     {
       "html": "<span style=\"font-size:0.9rem\">Check if <span class=\"green-keyword\">age</span> is less than or equal to <span class=\"green-keyword\">12</span>, and print 'Child ticket'.</span>",
-      "keywords": ["if", "age", "<="],
       "correctCode": "if\\s+age\\s*<=\\s*12\\s*:\\s+print\\s*\\(\\s*[\"'][^\"']+[\"']\\s*\\)",
       "useRegex": true,
       "triggerConsole": true
