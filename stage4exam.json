@@ -42,14 +42,6 @@
       "explanation": "if statements need a colon at the end. => is not a valid operator."
     },
     {
-      "type": "mcq",
-      "prompt": "Which correctly writes an if statement checking if <span class=\"green-keyword\">name</span> is not equal to <span class=\"green-keyword\">'Alex'</span>?",
-      "codeHtml": "",
-      "correct": "if name != 'Alex':",
-      "options": ["if name != 'Alex':", "if name !== 'Alex':", "if name not= 'Alex':", "if name == 'Alex':"],
-      "explanation": "Use != for not equal. !== is JavaScript, not Python."
-    },
-    {
       "type": "text_simple",
       "prompt": "Type the operator that means: <span class=\"green-keyword\">less than or equal to</span>",
       "correctCode": "<=",
@@ -69,17 +61,22 @@
     },
     {
       "type": "text_simple",
-      "prompt": "Type the logical operator that <span class=\"green-keyword\">inverts</span> a condition",
-      "correctCode": "not",
-      "explanation": "Format: not"
+      "prompt": "Type the if statement that checks if <span class=\"green-keyword\">lives</span> is not equal to <span class=\"green-keyword\">0</span>",
+      "correctCode": "^if\\s+lives\\s*!=\\s*0\\s*:$",
+      "useRegex": true,
+      "explanation": "Format: if lives != 0:"
     },
     {
       "type": "extended_run",
-      "prompt": "Write a script that:\n1. Stores a <b>score</b> of your choice as a number\n2. Stores an <b>age</b> of your choice as a number\n3. Uses an if statement to print a message if score is greater than or equal to 50\n4. Uses an if statement to print a message if age is greater than or equal to 18",
+      "prompt": "Write a script that stores a <b>score</b> and an <b>age</b> of your choice as numbers, then writes an if statement for each:\n- Print a message if score is greater than or equal to 50\n- Print a message if age is greater than or equal to 18",
       "explanation": "Format:\nscore = 75\nage = 20\nif score >= 50:\n    print('Passed!')\nif age >= 18:\n    print('Adult')",
       "expectedVars": [
         { "name": "score", "type": "number", "strict": false },
         { "name": "age", "type": "number", "strict": false }
+      ],
+      "testValues": [
+        { "name": "score", "value": 75 },
+        { "name": "age", "value": 20 }
       ],
       "expectedOutput": [
         { "containsStr": "Passed" },
