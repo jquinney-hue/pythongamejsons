@@ -1,0 +1,92 @@
+{
+  "title": "Exam 4: Selection",
+  "questions": [
+    {
+      "type": "mcq",
+      "prompt": "Which comparison operator means 'greater than or equal to'?",
+      "codeHtml": "",
+      "correct": ">=",
+      "options": [">=", ">", "<=", "=>"],
+      "explanation": ">= checks if the left side is greater than or equal to the right side."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which comparison operator means 'not equal to'?",
+      "codeHtml": "",
+      "correct": "!=",
+      "options": ["!=", "==", "<>", "not="],
+      "explanation": "!= checks if two values are not equal."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which logical operator returns True only if both conditions are True?",
+      "codeHtml": "",
+      "correct": "and",
+      "options": ["and", "or", "not", "&&"],
+      "explanation": "Python uses 'and' (not &&) to check if both conditions are True."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which correctly checks if <span class=\"green-keyword\">score</span> is greater than or equal to <span class=\"green-keyword\">50</span> and prints a message?",
+      "codeHtml": "",
+      "correct": "if score >= 50:\n    print('Passed!')",
+      "options": [
+        "if score >= 50:\n    print('Passed!')",
+        "if score >= 50:\nprint('Passed!')",
+        "if score => 50:\n    print('Passed!')",
+        "if score >= 50\n    print('Passed!')"
+      ],
+      "explanation": "The if line needs a colon and the print must be indented."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which correctly checks if <span class=\"green-keyword\">lives</span> is not equal to <span class=\"green-keyword\">0</span>, otherwise prints 'Game over'?",
+      "codeHtml": "",
+      "correct": "if lives != 0:\n    print('Alive!')\nelse:\n    print('Game over')",
+      "options": [
+        "if lives != 0:\n    print('Alive!')\nelse:\n    print('Game over')",
+        "if lives != 0:\n    print('Alive!')\nelse\n    print('Game over')",
+        "if lives == 0:\n    print('Alive!')\nelse:\n    print('Game over')",
+        "if lives != 0:\nprint('Alive!')\nelse:\nprint('Game over')"
+      ],
+      "explanation": "else must have a colon and both branches must be indented."
+    },
+    {
+      "type": "text_simple",
+      "prompt": "Type the operator that means: <span class=\"green-keyword\">less than or equal to</span>",
+      "correctCode": "<=",
+      "explanation": "Format: <="
+    },
+    {
+      "type": "text_simple",
+      "prompt": "Type the operator that means: <span class=\"green-keyword\">equal to</span>",
+      "correctCode": "==",
+      "explanation": "Format: =="
+    },
+    {
+      "type": "text_simple",
+      "prompt": "Type the logical operator that returns True if <span class=\"green-keyword\">either</span> condition is True",
+      "correctCode": "or",
+      "explanation": "Format: or"
+    },
+    {
+      "type": "text_simple",
+      "prompt": "Type the logical operator that <span class=\"green-keyword\">inverts</span> a condition",
+      "correctCode": "not",
+      "explanation": "Format: not"
+    },
+    {
+      "type": "extended_run",
+      "prompt": "Write a script that:\n1. Asks the user for their <b>age</b> (number)\n2. If age is greater than or equal to 18, print 'Adult', otherwise print 'Minor'\n3. Asks the user for their <b>score</b> (number)\n4. If score is greater than or equal to 50, print 'Passed', otherwise print 'Failed'",
+      "explanation": "Format:\nage = int(input('Enter age'))\nif age >= 18:\n    print('Adult')\nelse:\n    print('Minor')\nscore = int(input('Enter score'))\nif score >= 50:\n    print('Passed')\nelse:\n    print('Failed')",
+      "expectedVars": [
+        { "name": "age", "type": "number", "strict": false },
+        { "name": "score", "type": "number", "strict": false }
+      ],
+      "expectedOutput": [
+        { "containsStr": "Adult" },
+        { "containsStr": "Passed" }
+      ]
+    }
+  ]
+}
