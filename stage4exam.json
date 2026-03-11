@@ -27,29 +27,27 @@
     },
     {
       "type": "mcq",
-      "prompt": "Which correctly checks if <span class=\"green-keyword\">score</span> is greater than or equal to <span class=\"green-keyword\">50</span> and prints a message?",
+      "prompt": "Which logical operator returns True if at least one condition is True?",
       "codeHtml": "",
-      "correct": "if score >= 50:\n    print('Passed!')",
-      "options": [
-        "if score >= 50:\n    print('Passed!')",
-        "if score >= 50:\nprint('Passed!')",
-        "if score => 50:\n    print('Passed!')",
-        "if score >= 50\n    print('Passed!')"
-      ],
-      "explanation": "The if line needs a colon and the print must be indented."
+      "correct": "or",
+      "options": ["or", "and", "not", "||"],
+      "explanation": "Python uses 'or' (not ||)."
     },
     {
       "type": "mcq",
-      "prompt": "Which correctly checks if <span class=\"green-keyword\">lives</span> is not equal to <span class=\"green-keyword\">0</span>, otherwise prints 'Game over'?",
+      "prompt": "Which correctly writes an if statement checking if <span class=\"green-keyword\">score</span> is greater than or equal to <span class=\"green-keyword\">50</span>?",
       "codeHtml": "",
-      "correct": "if lives != 0:\n    print('Alive!')\nelse:\n    print('Game over')",
-      "options": [
-        "if lives != 0:\n    print('Alive!')\nelse:\n    print('Game over')",
-        "if lives != 0:\n    print('Alive!')\nelse\n    print('Game over')",
-        "if lives == 0:\n    print('Alive!')\nelse:\n    print('Game over')",
-        "if lives != 0:\nprint('Alive!')\nelse:\nprint('Game over')"
-      ],
-      "explanation": "else must have a colon and both branches must be indented."
+      "correct": "if score >= 50:",
+      "options": ["if score >= 50:", "if score => 50:", "if score >= 50", "if score >= 50;"],
+      "explanation": "if statements need a colon at the end. => is not a valid operator."
+    },
+    {
+      "type": "mcq",
+      "prompt": "Which correctly writes an if statement checking if <span class=\"green-keyword\">name</span> is not equal to <span class=\"green-keyword\">'Alex'</span>?",
+      "codeHtml": "",
+      "correct": "if name != 'Alex':",
+      "options": ["if name != 'Alex':", "if name !== 'Alex':", "if name not= 'Alex':", "if name == 'Alex':"],
+      "explanation": "Use != for not equal. !== is JavaScript, not Python."
     },
     {
       "type": "text_simple",
@@ -77,15 +75,15 @@
     },
     {
       "type": "extended_run",
-      "prompt": "Write a script that:\n1. Asks the user for their <b>age</b> (number)\n2. If age is greater than or equal to 18, print 'Adult', otherwise print 'Minor'\n3. Asks the user for their <b>score</b> (number)\n4. If score is greater than or equal to 50, print 'Passed', otherwise print 'Failed'",
-      "explanation": "Format:\nage = int(input('Enter age'))\nif age >= 18:\n    print('Adult')\nelse:\n    print('Minor')\nscore = int(input('Enter score'))\nif score >= 50:\n    print('Passed')\nelse:\n    print('Failed')",
+      "prompt": "Write a script that:\n1. Stores a <b>score</b> of your choice as a number\n2. Stores an <b>age</b> of your choice as a number\n3. Uses an if statement to print a message if score is greater than or equal to 50\n4. Uses an if statement to print a message if age is greater than or equal to 18",
+      "explanation": "Format:\nscore = 75\nage = 20\nif score >= 50:\n    print('Passed!')\nif age >= 18:\n    print('Adult')",
       "expectedVars": [
-        { "name": "age", "type": "number", "strict": false },
-        { "name": "score", "type": "number", "strict": false }
+        { "name": "score", "type": "number", "strict": false },
+        { "name": "age", "type": "number", "strict": false }
       ],
       "expectedOutput": [
-        { "containsStr": "Adult" },
-        { "containsStr": "Passed" }
+        { "containsStr": "Passed" },
+        { "containsStr": "Adult" }
       ]
     }
   ]
