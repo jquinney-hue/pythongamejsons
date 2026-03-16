@@ -66,4 +66,25 @@
       "notice": "range(10, 16)"
     },
     {
-      "html": "<span
+      "html": "<spanstyle=\"font-size:0.9rem\">Write the code that produces: <span class=\"green-keyword\">0, 3, 6, 9</span></span>",
+      "correctCode": "^\\s*range\\s*\\(\\s*0\\s*,\\s*12\\s*,\\s*3\\s*\\)\\s*$",
+      "useRegex": true,
+      "triggerConsole": false,
+      "notice": "range(0, 12, 3)"
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Write a range that produces <span class=\"green-keyword\">exactly 5 numbers starting from 0</span></span>",
+      "correctCode": "^\\s*range\\s*\\(\\s*5\\s*\\)\\s*$|^\\s*range\\s*\\(\\s*0\\s*,\\s*5\\s*\\)\\s*$",
+      "useRegex": true,
+      "triggerConsole": false,
+      "notice": "range(5) or range(0, 5)"
+    },
+    {
+      "html": "<span style=\"font-size:0.9rem\">Write a range that produces <span class=\"green-keyword\">exactly 10 numbers starting from 1</span></span>",
+      "correctCode": "^\\s*range\\s*\\(\\s*1\\s*,\\s*11\\s*\\)\\s*$",
+      "useRegex": true,
+      "triggerConsole": false,
+      "notice": "range(1, 11)"
+    }
+  ]
+}
