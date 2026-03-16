@@ -77,4 +77,40 @@
         "99",
         "0"
       ],
-      "notice":
+      "notice": "range(0, 100) produces 100 numbers: 0 up to and including 99"
+    },
+    {
+      "html": "<b>What is the LAST number produced by this range?</b><br><code>range(2, 9)</code>",
+      "correctCode": "8",
+      "optionsRaw": [
+        "8",
+        "9",
+        "7",
+        "2"
+      ],
+      "notice": "range(2, 9) stops BEFORE 9, so the last number is 8"
+    },
+    {
+      "html": "<b>What is the FIRST number produced by this range?</b><br><code>range(4, 12, 2)</code>",
+      "correctCode": "4",
+      "optionsRaw": [
+        "4",
+        "0",
+        "2",
+        "6"
+      ],
+      "notice": "range(4, 12, 2) always starts at the first argument, which is 4"
+    },
+    {
+      "html": "<b>Which of these correctly creates a range from 1 to 5 inclusive?</b>",
+      "correctCode": "range(1, 6)",
+      "optionsRaw": [
+        "range(1, 6)",
+        "range(1, 5)",
+        "range(1 5)",
+        "range(0, 5)"
+      ],
+      "notice": "To include 5, the stop value must be 6 — range always stops BEFORE the second argument"
+    }
+  ]
+}
