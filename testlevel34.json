@@ -1,0 +1,66 @@
+{
+  "levelName": "For Loops with Print",
+  "type": "multiline",
+  "questions": [
+    {
+      "inputLabel": "Write code that prints every number from 1 to 10:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*1\\s*,\\s*11\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(1, 11):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 0 to 4:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*5\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)|for\\s+i\\s+in\\s+range\\s*\\(\\s*0\\s*,\\s*5\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(5):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 5 to 9:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*5\\s*,\\s*10\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(5, 10):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 1 to 5:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*1\\s*,\\s*6\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(1, 6):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 0 to 9:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*10\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)|for\\s+i\\s+in\\s+range\\s*\\(\\s*0\\s*,\\s*10\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(10):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 3 to 8:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*3\\s*,\\s*9\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(3, 9):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 1 to 3:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*1\\s*,\\s*4\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(1, 4):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 10 to 15:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*10\\s*,\\s*16\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(10, 16):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints the numbers 0, 1 and 2:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*3\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)|for\\s+i\\s+in\\s+range\\s*\\(\\s*0\\s*,\\s*3\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(3):\n    print(i)"
+    },
+    {
+      "inputLabel": "Write code that prints every number from 6 to 10:",
+      "correctCode": "for\\s+i\\s+in\\s+range\\s*\\(\\s*6\\s*,\\s*11\\s*\\)\\s*:\\n\\s+print\\s*\\(\\s*i\\s*\\)",
+      "useRegex": true,
+      "notice": "for i in range(6, 11):\n    print(i)"
+    }
+  ]
+}
